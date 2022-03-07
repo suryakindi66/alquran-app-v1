@@ -35,7 +35,7 @@
   </head>
 
 
-  <body>
+  <body style="background-color: #D1DADD">
 
 
     <!-- ===============================================-->
@@ -67,8 +67,8 @@
             <div class="col-md-5 col-lg-6 order-md-1 pt-8"><img class="img-fluid" src="assets/img/images-iconbg.png" alt="" style="border-radius: 5%"/></div>
             <div class="col-md-7 col-lg-6 text-center text-md-start pt-5 pt-md-9">
               <h1 class="mb-4 display-3 fw-bold">Virtual Quran for you.</h1>
-              <p class="mt-3 mb-4 fs-1">Alquran adalah pedoman bagi seluruh umat manusia. M.Quraish Shihab menyampaikan bahwa yang dimaksud dengan tuntunan adalah tuntunan agama atau hukum Islam,<br class="d-none d-lg-block" />yaitu aturan yang mengatur dunia dan keselamatan hidup di masa yang akan datang. Aturannya adalah arah jalan yang lurus.<br><br><br><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#surah" role="button">Baca Alquran Yuk !</a>
-            </div>
+              <p class="mt-3 mb-4 fs-1">Alquran adalah Pedoman bagi seluruh umat manusia. M.Quraish Shihab menyampaikan bahwa yang dimaksud dengan tuntunan adalah tuntunan agama atau hukum Islam,<br class="d-none d-lg-block" />yaitu aturan yang mengatur dunia dan keselamatan hidup di masa yang akan datang. Aturannya adalah arah jalan yang lurus.<br><br><br><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#surah" role="button">Baca Alquran Yuk !</a>
+              </div>
           </div>
         </div>
       </section>

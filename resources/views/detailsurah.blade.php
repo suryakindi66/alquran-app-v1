@@ -33,15 +33,15 @@
   </head>
 
 
-  <body>
+  <body style="background-color: #D1DADD">
 
 
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="/">Al-Quran</a>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="/">Al-Qurans</a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         
                <a href="/"> <button type="button" class="btn btn-outline-primary">Home</button></a>
@@ -75,14 +75,14 @@
           Your browser does not support the audio element.
           </audio>
           
-          <hr><hr>
+          <hr class="text-dark"><hr class="text-dark">
           <?php $no=1;?>
           @foreach($resultdetailsurah as $item)
           <div class="col-md-11"><div id="alert-2"></div>
         <p align="right" style="line-height:60px;font-size:30px;" class="h5 g-color-black g-font-weight-400 arab" dir="rtl" lang="ar">{{$item['ar']}}-{{$no++}}</p><br><br>
         <p class="h5 g-color-grey arab terjemahan">{!!$item['tr']!!},</p><br><br><br>
         <p class="h5 g-color-grey arab terjemahan">Arti : {{$item['id']}},</p></div>
-          <hr><hr>
+        <hr class="text-dark"><hr class="text-dark">
           @endforeach
             
             
