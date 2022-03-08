@@ -73,7 +73,7 @@
         </div>
       </section>
       <section class="py-8" id="surah">
-        <div class="bg-holder" style="background-image:url(assets/img/illustrations/services-bg.png);background-position:center left;background-size:auto;">
+        <div class="bg-holder" background-position:center left;background-size:auto;>
         </div>
         <!--/.bg-holder-->
 
@@ -86,6 +86,9 @@
             <div class="col-3 text-center">
               <h2 class="fw-bold">Daftar Surah</h2>
               <hr class="w-25 mx-auto text-dark" style="height:2px;" />
+              @if(session()->has('error404'))
+              <h5>Surah Tidak Ditemukan</h5>
+              @endif
             </div>
           </div>
           
