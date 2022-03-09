@@ -22,17 +22,12 @@ class IndexController extends Controller
     }
      public function index()
     {
-        
+      
         if(request('search')){
-        $searchvalue = request('search');
-        $new_string = str_replace(' ','%20',$searchvalue);
-        $data = $this->get_alldatasurah('https://api-alquranid.herokuapp.com/surah/search/'.$new_string);
-        $resultdata = $data['data'];
-            if($resultdata == 0){
-                request(session()->flash('error404'));
-            }else{
-                $resultdata = $data['data'];
-            }
+            $searchvalue = request('search');
+            $new_string = str_replace(' ','%20',$searchvalue);
+            $data = $this->get_alldatasurah('https://api-alquranid.herokuapp.com/surah/search/'.$new_string);
+            $resultdata = $data['data'];
         }else{
             $data = $this->get_alldatasurah('https://api-alquranid.herokuapp.com/surah/');
             $resultdata = $data['data'];
